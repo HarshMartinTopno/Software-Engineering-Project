@@ -29,28 +29,28 @@
 
 
 ### 3.1 User Management & Authentication
--**Input:** Teacher registration details (email, password), login credentials 
--**Output:** Authentication status (success/failure), user session
+- **Input:** Teacher registration details (email, password), login credentials 
+- **Output:** Authentication status (success/failure), user session
 
 
 ### 3.2 Exam Setup & Configuration
--**Input:** Question paper file (PDF/DOC), answer key, marks allocation per question 
--**Output:** Exam configuration stored, confirmation of setup
+- **Input:** Question paper file (PDF/DOC), answer key, marks allocation per question 
+- **Output:** Exam configuration stored, confirmation of setup
 
 
 ### 3.3 Answer Sheet Processing
-**Input:** Scanned handwritten answer sheets (PDF/JPG/PNG), student identification 
-**Output:** Extracted text from answer sheets, linked to student ID
+- **Input:** Scanned handwritten answer sheets (PDF/JPG/PNG), student identification 
+- **Output:** Extracted text from answer sheets, linked to student ID
 
 
 ### 3.4 Answer Evaluation
-**Input:** Extracted student answers, answer key, exam configuration
-**Output:** Marks per question, short feedback for each answer
+- **Input:** Extracted student answers, answer key, exam configuration
+- **Output:** Marks per question, short feedback for each answer
 
 
 ### 3.5 Result Generation & Reporting
-**Input:** Evaluation results (marks, feedback), student and exam data
-**Output:** Individual student reports (question-wise marks, total score, feedback), exported files (PDF/CSV)
+- **Input:** Evaluation results (marks, feedback), student and exam data
+- **Output:** Individual student reports (question-wise marks, total score, feedback), exported files (PDF/CSV)
 
 ## 4. External Interface Requirements
 - **User Interface:**
