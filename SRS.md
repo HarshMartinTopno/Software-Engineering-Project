@@ -30,39 +30,28 @@
 
 
 ### 3.1 User Management & Authentication
-**Input:** Teacher registration details (email, password), login credentials
-**Output:** Authentication status (success/failure), user session
-- Teachers can register and log in securely.
-- System stores and validates user credentials.
+-**Input:** Teacher registration details (email, password), login credentials 
+-**Output:** Authentication status (success/failure), user session
+
 
 ### 3.2 Exam Setup & Configuration
-**Input:** Question paper file (PDF/DOC), answer key, marks allocation per question
-**Output:** Exam configuration stored, confirmation of setup
-- Teachers upload question papers and answer keys.
-- Teachers assign marks per question.
-- System stores exam configuration.
+-**Input:** Question paper file (PDF/DOC), answer key, marks allocation per question 
+-**Output:** Exam configuration stored, confirmation of setup
+
 
 ### 3.3 Answer Sheet Processing
-**Input:** Scanned handwritten answer sheets (PDF/JPG/PNG), student identification
+**Input:** Scanned handwritten answer sheets (PDF/JPG/PNG), student identification 
 **Output:** Extracted text from answer sheets, linked to student ID
-- Teachers upload scanned handwritten answer sheets.
-- System sends images to OCR agent for text extraction.
-- Extracted text is stored and linked to student ID.
+
 
 ### 3.4 Answer Evaluation
 **Input:** Extracted student answers, answer key, exam configuration
 **Output:** Marks per question, short feedback for each answer
-- System reads student answers and answer key.
-- Objective questions: automatic grading (exact/close match).
-- Subjective questions: LLM agent evaluates answers semantically.
-- Marks assigned per question, with short feedback.
+
 
 ### 3.5 Result Generation & Reporting
 **Input:** Evaluation results (marks, feedback), student and exam data
 **Output:** Individual student reports (question-wise marks, total score, feedback), exported files (PDF/CSV)
-- System compiles evaluation results.
-- Generates individual student reports (question-wise marks, total score, feedback).
-- Exports results in PDF/CSV format.
 
 ## 4. External Interface Requirements
 - **User Interface:**

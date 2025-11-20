@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.3">
+  <diagram id="studentView" name="View Results (Student)">
+    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="student" value="Student" style="shape=umlLifeline" parent="1" vertex="1">
+          <mxGeometry x="54" y="40" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ui" value="ResultDashboardUI" style="shape=umlLifeline" parent="1" vertex="1">
+          <mxGeometry x="254" y="40" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl" value="ReportController" style="shape=umlLifeline" parent="1" vertex="1">
+          <mxGeometry x="454" y="40" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="entity" value="Report" style="shape=umlLifeline" parent="1" vertex="1">
+          <mxGeometry x="654" y="40" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" value="viewResults()" parent="1" edge="1">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint x="164" y="140" as="sourcePoint" />
+            <mxPoint x="244" y="140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" value="fetchReport()" parent="1" edge="1">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint x="364" y="180" as="sourcePoint" />
+            <mxPoint x="444" y="180" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" value="returnReport()" parent="1" edge="1">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint x="574" y="210" as="sourcePoint" />
+            <mxPoint x="654" y="210" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
