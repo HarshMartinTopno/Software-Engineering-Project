@@ -1,0 +1,41 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.3">
+<!-- 3- OCR EXTRACTION -->
+  <diagram id="ocrExtract" name="Extract Text (OCR)">
+    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ctrl" value="OCRController" style="shape=umlLifeline" parent="1" vertex="1">
+          <mxGeometry x="100" y="40" width="120" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="ocr" value="OCREngine" style="shape=umlLifeline" parent="1" vertex="1">
+          <mxGeometry x="300" y="40" width="120" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="entity" value="StudentSubmission" style="shape=umlLifeline" parent="1" vertex="1">
+          <mxGeometry x="500" y="40" width="120" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" value="extractText()" parent="1" edge="1">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint x="220" y="160" as="sourcePoint" />
+            <mxPoint x="300" y="160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" value="return text" parent="1" edge="1">
+          <mxGeometry y="-20" relative="1" as="geometry">
+            <mxPoint x="300" y="270" as="sourcePoint" />
+            <mxPoint x="220" y="270" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" value="saveText()" parent="1" edge="1">
+          <mxGeometry x="-0.0909" y="20" relative="1" as="geometry">
+            <mxPoint x="410" y="200" as="sourcePoint" />
+            <mxPoint x="510" y="200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
